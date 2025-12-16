@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Saya</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav id="navbar">
+        <a href="/">
+            <h2>Nirleka</h2>
+        </a>
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO SECTION -->
+
+    <section id="hero">
+
+        <video autoplay muted loop id="hero-background-video">
+            <source src="videos/background.mp4" type="video/mp4">
+        </video>
+        <div>
+            <h1>Halo, Saya <span>Nirleka Arthamevira</span></h1>
+            <p class="aka">A.K.A : M. Hafizh Rafid Hidayat</p>
+            <h2><span>Fullstack Developer</span></h2>
+            <p>yang berfokus pada pembuatan aplikasi modern, cepat, dan responsif. Saya suka membangun aplikasi dari front-end hingga back-end.</p>
+
+            <div class="btn-wraper">
+                <a href="#projects" class="btn-neon">Lihat Project Saya</a>
+                <a href="#contact" class="btn-glass">Hubungi Saya</a>
+            </div>
+        </div>
+        <img src="/images/hero.png" alt="adalah gwejh" id="hero-image">
+
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <h1 class="title">About Me</h1>
+        <div class="about-container">
+            <img src="images/about.png" alt="">
+    
+            <div class="about-content">
+
+                <p>Saya memiliki latar belakang dalam pengembangan aplikasi web dan mobile, dengan pengalaman dalam menggunakan berbagai teknologi modern untuk membangun solusi digital yang efektif dan fungsional. Saat ini, saya berkuliah di program studi Teknik Informatika, yang semakin memperkuat pemahaman saya terhadap dasar-dasar ilmu komputer dan pengembangan perangkat lunak. Saya selalu berupaya untuk mengembangkan keterampilan saya di bidang pemrograman dan teknologi, serta terus mengikuti perkembangan terbaru untuk menghasilkan karya yang berkualitas dan relevan.</p>
+
+        
+                <h2>Skills / Technologies</h2>
+                <div class="skills">
+                    <span class="skill-badge"><img src="images/html.svg" alt="html logo"> HTML</span>
+                    <span class="skill-badge"><img src="images/css.svg" alt="css logo">CSS</span>
+                    <span class="skill-badge"><img src="images/js.svg" alt="js logo">JavaScript</span>
+                    <span class="skill-badge"><img src="images/php.svg" alt="php logo">PHP</span>
+                    <span class="skill-badge"><img src="images/laravel.svg" alt="laravel logo">Laravel</span>
+                    <span class="skill-badge"><img src="images/python.svg" alt="python logo">Python</span>
+                    <span class="skill-badge"><img src="images/react.svg" alt="react logo">React</span>
+                    <span class="skill-badge"><img src="images/nodejs.svg" alt="nodejs logo">Node.js</span>
+                    <span class="skill-badge"><img src="images/expressjs.svg" alt="expressjs logo">Express</span>
+                    <span class="skill-badge"><img src="images/mongodb.svg" alt="mongodb logo">MongoDB</span>
+                    <span class="skill-badge"><img src="images/mysql.svg" alt="mysql logo">MySQL</span>
+                    <span class="skill-badge"><img src="images/tailwind.svg" alt="tailwind logo">Tailwind</span>
+                    <span class="skill-badge"><img src="images/git.svg" alt="git logo">Git</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="education">
+        <h1 class="title">Pendidikan</h1>
+
+        <div class="timeline">
+
+            <!-- 1 -->
+            <div class="timeline-item left">
+            <div class="content">
+                <span class="year">2011 - 2017</span>
+                <h3>SDN Batan Indah</h3>
+                <p>Pendidikan dasar yang membentuk fondasi akademik dan karakter.</p>
+            </div>
+            <div class="image">
+                <img src="../images/sekolah-dasar.png" alt="Sekolah Dasar">
+            </div>
+            <span class="dot">1</span>
+            </div>
+
+            <!-- 2 -->
+            <div class="timeline-item right">
+            <div class="content">
+                <span class="year">2017 - 2020</span>
+                <h3>SMPN 8 Kota Tangerang Selatan</h3>
+                <p>Masa pengembangan minat dan kemampuan akademik menengah.</p>
+            </div>
+            <div class="image">
+                <img src="../images/SMP.png" alt="SMP">
+            </div>
+            <span class="dot">2</span>
+            </div>
+
+            <!-- 3 -->
+            <div class="timeline-item left">
+            <div class="content">
+                <span class="year">2020 - 2023</span>
+                <h3>SMAN 2 Kota Tangerang Selatan</h3>
+                <p>Pendidikan menengah atas dengan fokus akademik dan persiapan kuliah.</p>
+            </div>
+            <div class="image">
+                <img src="../images/SMA.png" alt="SMA">
+            </div>
+            <span class="dot">3</span>
+            </div>
+
+            <!-- 4 -->
+            <div class="timeline-item right">
+            <div class="content">
+                <span class="year">2023 - Present</span>
+                <h3>Teknik Informatika – Universitas Pamulang</h3>
+                <p>Mendalami pemrograman, web development, dan teknologi modern.</p>
+            </div>
+            <div class="image">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="Universitas">
+            </div>
+            <span class="dot">4</span>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <h1 >Projects</h1>
+
+        <div class="projects-grid">
+            <a href="/projects/ceram.html" class="project-card">
+                <h3>Web Creepypasta</h3>
+                <video src="videos/ceram.mp4" muted class="video-project"></video>
+                <div class="skills">
+                    <span class="skill-badge"><img src="images/php.svg" alt="php logo">PHP</span>
+                    <span class="skill-badge"><img src="images/laravel.svg" alt="laravel logo">Laravel</span>
+                </div>
+                <p>Aplikasi web yang menyajikan beragam macam kisah horror. Aplikasi ini dibuat dengan bahasa PHP dan framework Laravel</p>
+            </a>
+            
+            <a href="/projects/discord-bot.html" class="project-card">
+                <h3>Discord Bot</h3>
+                <video src="videos/discord-bot.mp4" muted class="video-project"></video>
+                <div class="skills">
+                    <span class="skill-badge"><img src="images/python.svg" alt="python logo">Python</span>
+                </div>
+                <p>Aplikasi bot untuk discord yang bisa membuat kita bermain dengan teman. Dibuat dengan Python</p>
+            </a>
+            
+            <a href="/projects/discord-clone.html" class="project-card">
+                <h3>Web Tiruan Discord</h3>
+                <video src="videos/discord-clone.mp4" muted class="video-project"></video>
+                <div class="skills">
+                    <span class="skill-badge"><img src="images/html.svg" alt="html logo"> HTML</span>
+                    <span class="skill-badge"><img src="images/tailwind.svg" alt="tailwind logo">Tailwind</span>
+                    <span class="skill-badge"><img src="images/js.svg" alt="js logo">JavaScript</span>
+                </div>
+                <p>UI Web yang meniru tampilan dari Discord.gg. Dibuat dengan HTML, Tailwind CSS, dan JS</p>
+            </a>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <h1>Get in Touch</h1>
+
+        <form method="POST" action="https://formsubmit.co/nirlekaarthamevira@gmail.com">
+            <input type="text" placeholder="Nama Anda" name="name" required  />
+            <input type="email" name="email" placeholder="Email Anda" required />
+            <textarea rows="5" name="message" placeholder="Pesan Anda" required></textarea>
+            <button type="submit" class="btn-neon">Kirim</button>
+        </form>
+    
+        
+    </section>
+
+    <footer>
+        <div class="footer-social">
+            <a href="https://instagram.com/USERNAME" target="_blank">
+                <img src="../images/instagram.svg" alt="Instagram">
+            </a>
+            <a href="https://linkedin.com/in/USERNAME" target="_blank">
+                <img src="../images/linkedin.svg" alt="LinkedIn">  
+            </a>
+            <a href="https://github.com/USERNAME" target="_blank">
+                <img src="../images/github.svg" alt="GitHub">
+            </a>
+        </div>
+
+        <p>© 2025 Portfolio Nirleka Arthamevira (M. Hafizh Rafid Hidayat)</p>
+    </footer>
+
+
+    <script src="main.js"></script>
+
+</body>
+</html>
