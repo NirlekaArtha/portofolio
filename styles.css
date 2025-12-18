@@ -519,3 +519,222 @@ footer a {
         left: 20px !important;
     }
 }
+
+/* =========================================================
+   RESPONSIVE IMPROVEMENTS (APPEND ONLY)
+   Target: Mobile, Tablet, Laptop, TV
+========================================================= */
+
+/* ---------- GLOBAL SCALE ---------- */
+@media (max-width: 1200px) {
+    section {
+        padding: 120px 60px;
+    }
+}
+
+@media (min-width: 1600px) {
+    body {
+        font-size: 18px;
+    }
+
+    section {
+        max-width: 1600px;
+        margin: auto;
+    }
+}
+
+/* ---------- NAVBAR ---------- */
+@media (max-width: 900px) {
+    nav {
+        padding: 14px 24px;
+    }
+
+    nav ul {
+        gap: 16px;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+/* ---------- HERO SECTION ---------- */
+@media (max-width: 1024px) {
+    #hero {
+        gap: 40px;
+    }
+
+    #hero-image {
+        max-width: 380px;
+    }
+}
+
+@media (max-width: 768px) {
+    #hero {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding-top: 160px;
+    }
+
+    #hero p {
+        max-width: 100%;
+    }
+
+    .btn-wraper {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #hero-image {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    #hero h1 {
+        font-size: 34px;
+    }
+
+    #hero h2 {
+        font-size: 22px;
+        margin-top: 32px;
+    }
+
+    #hero-image {
+        max-width: 240px;
+    }
+}
+
+/* ---------- ABOUT SECTION ---------- */
+@media (max-width: 1024px) {
+    .about-content {
+        max-width: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .about-content {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .skills {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .skill-badge {
+        font-size: 12px;
+        height: auto;
+        padding: 8px 14px;
+    }
+}
+
+/* ---------- EDUCATION TIMELINE (EXTRA MOBILE FIX) ---------- */
+@media (max-width: 600px) {
+    .timeline-item .image img {
+        width: 120px;
+        height: 90px;
+    }
+
+    .timeline-item .content {
+        max-width: 100%;
+    }
+
+    #education .title {
+        font-size: 28px;
+    }
+}
+
+/* ---------- PROJECTS ---------- */
+@media (max-width: 768px) {
+    #projects h1 {
+        margin-bottom: 64px;
+    }
+
+    .project-card h3 {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .projects-grid {
+        gap: 32px;
+    }
+}
+
+/* ---------- CONTACT ---------- */
+@media (max-width: 900px) {
+    form {
+        width: 100%;
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 480px) {
+    #contact h1 {
+        margin-bottom: 64px;
+    }
+
+    input, textarea {
+        font-size: 14px;
+    }
+}
+
+/* ---------- FOOTER ---------- */
+@media (max-width: 600px) {
+    footer p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+}
+
+/* ---------- PROJECT DETAIL PAGES ---------- */
+@media (max-width: 768px) {
+    #project-detail {
+        padding-top: 120px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .project-info h1 {
+        font-size: 28px;
+    }
+
+    .project-links {
+        flex-wrap: wrap;
+    }
+}
+
+/* ---------- TV / LARGE DISPLAY ---------- */
+@media (min-width: 1920px) {
+    section {
+        padding: 160px 120px;
+    }
+
+    #hero h1 {
+        font-size: 64px;
+    }
+
+    #hero h2 {
+        font-size: 36px;
+    }
+}
